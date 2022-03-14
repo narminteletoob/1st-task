@@ -1,0 +1,19 @@
+using System;
+
+namespace MyApplication
+{
+    class Program2
+    {
+        static void SayHa(string str)
+          
+        {
+            Console.WriteLine(str);
+        }
+
+        static void Main(string[] args)
+        {
+           Console.WriteLine(SayHa("Ha!").Repeat(4)));
+           
+        }
+    }
+}
