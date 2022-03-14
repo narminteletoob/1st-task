@@ -1,0 +1,17 @@
+using System;
+
+namespace MyApplication
+{
+    class Program1
+    {
+        static int Method(int x, int y)
+        {
+            return x / y;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Method(10, 5));
+        }
+    }
+}
