@@ -1,0 +1,23 @@
+//int tipindən bir array olur içində müsbət və mənfi ədədlər olur
+//elə bir method yazın ki, bu array-i parametr olaraq qəbul etsin və qəbul
+//etdiyi array-in əvvəlcədən assign olunması məcburi olsun daha sonra içindəki
+using System;
+public class Array
+{
+    static void printArray(int[] arr)
+    {
+        Console.WriteLine("Printing array elements:");
+        for (int i = 0; i < arr.Length; i++)
+        {
+            array1[i] *= -1;
+            Console.WriteLine(arr[i]);
+        }
+    }
+    public static void Main(string[] args)
+    {
+        int[] arr1 = { 25, -10, 20, -15, -40, 50 };
+
+        printArray(arr1);//passing array to function  
+
+    }
+}
