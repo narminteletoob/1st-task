@@ -1,0 +1,44 @@
+using System;
+​
+namespace MyApplication
+{
+    class Product
+    {
+        string Name;
+        int No;
+        int Price;
+        int Count;
+    }
+    class Book : Product
+    {
+
+        string Genre;
+
+    }
+    class Result
+    {
+
+        static void Main(string[] args)
+        {
+            Product obj1= new Product();
+            obj1.Name = "HP";
+            obj1.Price = 2300;
+            obj1.Count = 300;
+            obj1.No = 123399;
+
+            Book obj2 = new Book();
+            obj2.Genre = "Fantasy";
+
+
+            Count = Console.ReadLine();
+            Console.WriteLine("Enter Amount");
+            Count = Convert.ToInt32(Console.ReadLine());  
+
+            if ()
+        }
+
+       //axira kimi yazilacaq*_*
+
+    }
+
+}
